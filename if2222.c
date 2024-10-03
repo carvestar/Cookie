@@ -5,22 +5,22 @@ int main(void)
 {
 	/*
 	int a;
-	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: \n");
+	printf("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”: \n");
 	scanf("%d", &a);
 
 	if (a >= 0)
 		if (a == 0)
-			printf("0ÀÔ´Ï´Ù.\n");
+			printf("0ì…ë‹ˆë‹¤.\n");
 		else
-			printf("¾ç¼öÀÔ´Ï´Ù.\n");
+			printf("ì–‘ìˆ˜ì…ë‹ˆë‹¤.\n");
 	else
-		printf("À½¼öÀÔ´Ï´Ù.\n");
+		printf("ìŒìˆ˜ì…ë‹ˆë‹¤.\n");
 
 	return 0;
 	
 
 	int a;
-	printf("¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä: \n");
+	printf("ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”: \n");
 	scanf("%d", &a);
 
 	if (a >= 90)
@@ -34,100 +34,100 @@ int main(void)
 	else
 		printf("F");
 
-	printf("ÇĞÁ¡ÀÔ´Ï´Ù.\n");
+	printf("í•™ì ì…ë‹ˆë‹¤.\n");
 
 	return 0;
 
-	// ÀÌ°Å ¿Ã·Á¾ß ÇÏ´Â µí //
+	// ì´ê±° ì˜¬ë ¤ì•¼ í•˜ëŠ” ë“¯ //
 
 	int a;
-	printf("´ŞÀ» ÀÔ·ÂÇÏ¼¼¿ä: \n");
+	printf("ë‹¬ì„ ì…ë ¥í•˜ì„¸ìš”: \n");
 	scanf("%d", &a);
 
 	if (6 > a && a >= 3)
-		printf("º½");
+		printf("ë´„");
 	else if (9 > a && a >= 6)
-		printf("¿©¸§");
+		printf("ì—¬ë¦„");
 	else if (12 > a && a >= 9)
-		printf("°¡À»");
+		printf("ê°€ì„");
 	else if (a == 12 || 1 == a || 2 == a)
-		printf("°Ü¿ï");
+		printf("ê²¨ìš¸");
 	else
-		printf("¿À·ù");
+		printf("ì˜¤ë¥˜");
 
-	printf("ÀÔ´Ï´Ù.\n");
+	printf("ì…ë‹ˆë‹¤.\n");
 
 	return 0;
 
 
 
 	int a;
-	printf("1-4 Áß¿¡ ¼±ÅÃÇÏ¼¼¿ä.");
+	printf("1-4 ì¤‘ì— ì„ íƒí•˜ì„¸ìš”.");
 	scanf("%d", &a);
 
 	switch (a)
 	{
 	case 1:
-		printf("1ÇĞ³âÀÔ´Ï´Ù.");
+		printf("1í•™ë…„ì…ë‹ˆë‹¤.");
 		break;
 	case 2:
-		printf("2ÇĞ³âÀÔ´Ï´Ù.");
+		printf("2í•™ë…„ì…ë‹ˆë‹¤.");
 		break;
 	case 3:
-		printf("3ÇĞ³âÀÔ´Ï´Ù.");
+		printf("3í•™ë…„ì…ë‹ˆë‹¤.");
 		break;
 	case 4:
-		printf("Àü°ø½ÉÈ­ÀÔ´Ï´Ù.");
+		printf("ì „ê³µì‹¬í™”ì…ë‹ˆë‹¤.");
 		break;
 	default:
-		printf("1-4 Áß¿¡ ÀÔ·ÂÇÏ¼¼¿ä.");
+		printf("1-4 ì¤‘ì— ì…ë ¥í•˜ì„¸ìš”.");
 	}
 
 	return 0;
 	
 
 	int a;
-	printf("¿ùÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+	printf("ì›”ì„ ì…ë ¥í•˜ì„¸ìš”.");
 	scanf("%d", &a);
 
 	switch (a)
 	{
 	case 1: case 2:
-		printf("°Ü¿ïÀÔ´Ï´Ù.");
+		printf("ê²¨ìš¸ì…ë‹ˆë‹¤.");
 		break;
 	case 3: case 4: case 5:
-		printf("º½ÀÔ´Ï´Ù.");
+		printf("ë´„ì…ë‹ˆë‹¤.");
 		break;
 	case 6: case 7: case 8:
-		printf("¿©¸§ÀÔ´Ï´Ù.");
+		printf("ì—¬ë¦„ì…ë‹ˆë‹¤.");
 		break;
 	case 9: case 10: case 11:
-		printf("°¡À»ÀÔ´Ï´Ù.");
+		printf("ê°€ì„ì…ë‹ˆë‹¤.");
 		break;
 	case 12:
-		printf("°Ü¿ïÀÔ´Ï´Ù.");
+		printf("ê²¨ìš¸ì…ë‹ˆë‹¤.");
 		break;
 	default:
-		printf("1-12 Áß¿¡ ÀÔ·ÂÇÏ¼¼¿ä.");
+		printf("1-12 ì¤‘ì— ì…ë ¥í•˜ì„¸ìš”.");
 	}
 
 	return 0;
 	*/
 
 	char a;
-	printf("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+	printf("ë¬¸ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 	scanf("%c", &a);
 
 	switch (a) // (grade/10) //
 	{
 	case 'a':
-		printf("¾ËÆÄºªÀÔ´Ï´Ù.");
+		printf("ì•ŒíŒŒë²³ì…ë‹ˆë‹¤.");
 		break;
 	case 'b':
-		printf("¾ËÆÄºªÀÔ´Ï´Ù.");
+		printf("ì•ŒíŒŒë²³ì…ë‹ˆë‹¤.");
 		break;
 	default:
-		printf("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		printf("ë¬¸ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 	}
 
 	return 0;
