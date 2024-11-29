@@ -10,7 +10,7 @@ int main(void)
 
 	if (a >= 20 && a <= 39)
 	{
-		printf("청년입니다.1111111\n");
+		printf("청년입니다.11111\n");
 	}
 
 	else if (a >= 40 && a <= 59)
