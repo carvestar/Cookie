@@ -20,7 +20,7 @@ int main(void)
 	else
 		printf("기타입니다.\n");
 
-	printf("처리를 종료합니다.111\n");
+	printf("처리를 종료합니다.11\n");
 
 	return 0;
 }
