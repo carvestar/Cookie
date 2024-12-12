@@ -5,7 +5,7 @@ int main(void)
 {
 	/*
 	int x, y, z;
-	printf("세 정수를 입력: 2");
+	printf("세 정수를 입력: ");
 	scanf("%d %d %d", &x, &y, &z);
 
 	if (x > y)
